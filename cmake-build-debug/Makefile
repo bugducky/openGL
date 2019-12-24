@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = E:\JetBrains\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = E:\JetBrains\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Work\openGL\Exp
+CMAKE_SOURCE_DIR = E:\WorkSpace\openGL\Exp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Work\openGL\Exp\cmake-build-debug
+CMAKE_BINARY_DIR = E:\WorkSpace\openGL\Exp\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\Work\openGL\Exp\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	E:\JetBrains\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\JetBrains\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Work\openGL\Exp\cmake-build-debug\CMakeFiles D:\Work\openGL\Exp\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\openGL\Exp\cmake-build-debug\CMakeFiles E:\WorkSpace\openGL\Exp\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Work\openGL\Exp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\openGL\Exp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model.obj: src/model.cpp.obj
+
+.PHONY : src/model.obj
+
+# target to build an object file
+src/model.cpp.obj:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/model.cpp.obj
+.PHONY : src/model.cpp.obj
+
+src/model.i: src/model.cpp.i
+
+.PHONY : src/model.i
+
+# target to preprocess a source file
+src/model.cpp.i:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/model.cpp.i
+.PHONY : src/model.cpp.i
+
+src/model.s: src/model.cpp.s
+
+.PHONY : src/model.s
+
+# target to generate assembly for a file
+src/model.cpp.s:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/model.cpp.s
+.PHONY : src/model.cpp.s
+
+src/world.obj: src/world.cpp.obj
+
+.PHONY : src/world.obj
+
+# target to build an object file
+src/world.cpp.obj:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/world.cpp.obj
+.PHONY : src/world.cpp.obj
+
+src/world.i: src/world.cpp.i
+
+.PHONY : src/world.i
+
+# target to preprocess a source file
+src/world.cpp.i:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/world.cpp.i
+.PHONY : src/world.cpp.i
+
+src/world.s: src/world.cpp.s
+
+.PHONY : src/world.s
+
+# target to generate assembly for a file
+src/world.cpp.s:
+	$(MAKE) -f CMakeFiles\Exp.dir\build.make CMakeFiles/Exp.dir/src/world.cpp.s
+.PHONY : src/world.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +245,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/model.obj
+	@echo ... src/model.i
+	@echo ... src/model.s
+	@echo ... src/world.obj
+	@echo ... src/world.i
+	@echo ... src/world.s
 .PHONY : help
 
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Exp.dir/src/glad.c.obj"
   "CMakeFiles/Exp.dir/src/main.cpp.obj"
+  "CMakeFiles/Exp.dir/src/model.cpp.obj"
+  "CMakeFiles/Exp.dir/src/world.cpp.obj"
   "Exp.exe"
   "Exp.exe.manifest"
   "Exp.pdb"

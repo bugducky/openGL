@@ -5,91 +5,105 @@
 		<Option title="Exp"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\configuration\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Work/openGL/Exp/cmake-build-debug"/>
+				<Option working_dir="E:/WorkSpace/openGL/Exp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Work/openGL/Exp/cmake-build-debug"/>
+				<Option working_dir="E:/WorkSpace/openGL/Exp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exp">
-				<Option output="D:/Work/openGL/Exp/cmake-build-debug/Exp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Work/openGL/Exp/cmake-build-debug"/>
+				<Option output="E:/WorkSpace/openGL/Exp/cmake-build-debug/Exp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/openGL/Exp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Work/openGL/Exp/include"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/WorkSpace/openGL/Exp/include"/>
+					<Add directory="E:/WorkSpace/openGL/Exp/cmake-build-debug/configuration"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exp"/>
-					<CompileFile command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exp"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exp/fast">
-				<Option output="D:/Work/openGL/Exp/cmake-build-debug/Exp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Work/openGL/Exp/cmake-build-debug"/>
+				<Option output="E:/WorkSpace/openGL/Exp/cmake-build-debug/Exp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/openGL/Exp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Work/openGL/Exp/include"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/WorkSoft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/WorkSpace/openGL/Exp/include"/>
+					<Add directory="E:/WorkSpace/openGL/Exp/cmake-build-debug/configuration"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exp/fast"/>
-					<CompileFile command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exp/fast"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Work/openGL/Exp/cmake-build-debug"/>
+				<Option working_dir="E:/WorkSpace/openGL/Exp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/WorkSoft/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/openGL/Exp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Work/openGL/Exp/src/glad.c">
+		<Unit filename="E:/WorkSpace/openGL/Exp/include/learnopengl/shader_s.h">
 			<Option target="Exp"/>
 		</Unit>
-		<Unit filename="D:/Work/openGL/Exp/src/main.cpp">
+		<Unit filename="E:/WorkSpace/openGL/Exp/src/glad.c">
 			<Option target="Exp"/>
 		</Unit>
-		<Unit filename="D:/Work/openGL/Exp/CMakeLists.txt">
+		<Unit filename="E:/WorkSpace/openGL/Exp/src/main.cpp">
+			<Option target="Exp"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/openGL/Exp/src/model.cpp">
+			<Option target="Exp"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/openGL/Exp/src/world.cpp">
+			<Option target="Exp"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/openGL/Exp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/openGL/Exp/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

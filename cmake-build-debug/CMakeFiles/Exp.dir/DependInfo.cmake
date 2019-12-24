@@ -5,22 +5,26 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Work/openGL/Exp/src/glad.c" "D:/Work/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/glad.c.obj"
+  "E:/WorkSpace/openGL/Exp/src/glad.c" "E:/WorkSpace/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
+  "configuration"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Work/openGL/Exp/src/main.cpp" "D:/Work/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/main.cpp.obj"
+  "E:/WorkSpace/openGL/Exp/src/main.cpp" "E:/WorkSpace/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/main.cpp.obj"
+  "E:/WorkSpace/openGL/Exp/src/model.cpp" "E:/WorkSpace/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/model.cpp.obj"
+  "E:/WorkSpace/openGL/Exp/src/world.cpp" "E:/WorkSpace/openGL/Exp/cmake-build-debug/CMakeFiles/Exp.dir/src/world.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "configuration"
   )
 
 # Targets to which this target links.

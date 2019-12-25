@@ -6,8 +6,6 @@ CMakeFiles/Exp.dir/src/glad.c.obj
  ../include/glad/glad.h
  E:/WorkSpace/openGL/Exp/src/glad.c
 CMakeFiles/Exp.dir/src/main.cpp.obj
- E:/WorkSpace/openGL/Exp/src/main.cpp
-CMakeFiles/Exp.dir/src/model.cpp.obj
  ../include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
  ../include/assimp/Compiler/poppack1.h
@@ -247,7 +245,9 @@ CMakeFiles/Exp.dir/src/model.cpp.obj
  ../include/learnopengl/shader_m.h
  ../include/stb_image.cpp
  ../include/stb_image.h
- E:/WorkSpace/openGL/Exp/src/model.cpp
+ E:/WorkSpace/openGL/Exp/src/main.cpp
  configuration/root_directory.h
+CMakeFiles/Exp.dir/src/model.cpp.obj
+ E:/WorkSpace/openGL/Exp/src/model.cpp
 CMakeFiles/Exp.dir/src/world.cpp.obj
  E:/WorkSpace/openGL/Exp/src/world.cpp

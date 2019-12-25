@@ -1794,7 +1794,7 @@ intrin.h
 arm_neon.h
 -
 
-E:/WorkSpace/openGL/Exp/src/model.cpp
+E:/WorkSpace/openGL/Exp/src/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
